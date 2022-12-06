@@ -1,0 +1,157 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+/* Heading section */
+#heading {
+  background-color: rgb(222, 14, 14);
+  position: relative;
+}
+a {
+  font-size: 17px;
+  text-transform: uppercase;
+  font-weight: 400;
+}
+h4 {
+  color: #fff;
+  font-size: 0.9rem;
+  margin-left: 5px;
+}
+
+button {
+  text-transform: uppercase;
+  border-radius: 0px;
+}
+/* Common property */
+.popular-wrapper,
+#product-section ,.card-wrapper{
+  background-color: #fff;
+  box-shadow: 0 0px 5px rgb(88, 86, 86);
+}
+.popular-wrapper,
+.inputbox button {
+  border: 1px solid rgb(150, 149, 149);
+}
+#product-section ,.popular-wrapper {
+  margin: 2%;
+}
+h5{
+  font-weight: 900;
+  font-size: 1.1rem;
+  text-transform: uppercase;
+}
+h6{
+  color: lightgray;
+  font-family: cursive;
+}
+#navbarNav {
+  padding: 0 2% 0 20.1%;
+}
+.navbar-logo {
+  position: absolute;
+  left: 2%;
+  top: 15px;
+  background-color: rgb(222, 14, 14);
+  color: #fff;
+  text-align: center;
+  padding: 5px 50px;
+  box-shadow: 0 0px 1px rgb(243, 157, 157);
+}
+/* top banner section */
+#banner-heading {
+  background: url("https://images.unsplash.com/photo-1614052336006-256ed9a825be?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nzh8fHNob3BwaW5nJTIwbWFsbHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60")
+    no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding: 5% 10%;
+}
+.navbtn {
+  padding: 13px;
+  margin-left: 5px;
+}
+.cart {
+  margin-left: 7%;
+  border-radius: 0;
+  padding: 15px;
+}
+.bottom {
+  width: 100vw;
+  margin-top: 4%;
+  margin-bottom: -6%;
+  margin-left: -13%;
+  padding: 10px;
+  background-color: rgba(0, 0, 0, 45%);
+}
+.inputbox {
+  display: flex;
+  align-items: center;
+}
+.search-text {
+  font-size: 20px;
+  color: rgb(150, 149, 149);
+  margin-top: 4px;
+  margin-right: 14px;
+}
+.inputbox input {
+  background: transparent;
+  padding: 10px;
+}
+.inputbox button {
+  padding: 10px;
+  border-radius: 0;
+}
+.socialbtn {
+  background: rgba(0, 0, 0, 45%);
+  color: rgb(150, 149, 149);
+  margin: 5px;
+}
+/* sale product  */
+#product-section {
+  
+  width: 95%;
+}
+.imgae-wrapper {
+  padding: 2%;
+  width: 100%;
+}
+
+.img-box {
+  position: relative;
+}
+.edit-btn {
+  position: absolute;
+  left: 15%;
+  top: 87%;
+}
+.sale-image {
+  height: 500px;
+  width: 115%;
+}
+.btn-wrapper {
+  padding: 5px;
+  margin: 0 1%;
+}
+
+/* 2nd content */
+.popular-wrapper {
+  
+  padding: 3px;
+}
+.text-color{
+  color: red;
+  margin: 5px;
+  text-align: center;
+}
+.text-color i{
+  margin: 3px 4px;
+}
+.top-image
+{
+  width: 100px;
+}
+.card-wrapper
+{
+  margin: 5px -10px;
+  display: flex;
+}
